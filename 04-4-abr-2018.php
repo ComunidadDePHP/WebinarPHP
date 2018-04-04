@@ -38,6 +38,12 @@ $objetoSerHumano->razonar();
 //$objetoSerHumano->respirar();
 //$objetoSerHumano->MetodoCompartido();
 
+//crear 5 metodos publicos padre
+//crear 5 metodos protegidos en el padre
+//crear 5 metodos privados en el padre
+//Explicar con comentarios por que consideran que son de cierto alcance
+
+
 
 
 
