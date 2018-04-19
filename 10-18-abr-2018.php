@@ -40,8 +40,10 @@ $objeto = new  OperacionesAritmeticas();
 echo "valor es: ".$objeto->operaciones($datos,"suma");  
 //echo "Valor es: ".$objeto->estructura();
 
-//Tarea
-
+//Tarea 
+//Crear una nueva clase que use minimo un metodo con minimo 2 paramentros
+//se pueda personalizar el uso del metodo
+//Tenga relaciñon o congruencia la clase
 
 
 
