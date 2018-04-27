@@ -3,8 +3,6 @@ Script de los webinars realizados desde marzo de 2018
 
 Puedes conocer las siguientes fechas de las clases en linea en el enlace
 
-https://expertodesarrolloweb.wordpress.com/
+http://webinar.comunidaddephp.org/
 
-Puedes ver los enlaces de los videos de las clases pasadas en el siguiente enlace:
-
-https://expertodesarrolloweb.wordpress.com/anteriores/
+En este mismoo enlace puedes ver el listado de los videos de los cursos anteriores
