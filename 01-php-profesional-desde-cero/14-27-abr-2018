@@ -1,0 +1,34 @@
+<?php
+//Autor: Claudio Morales
+//Fecha: 27 abril 2018
+//Video del Webinar:
+
+final class unaclase
+{
+  public function mimetodo()
+  {}
+}
+
+class hija extends unaclase
+{}
+
+$objeto = new hija();
+
+/*
+interface claseinter
+  {
+    public function mimetodo();
+    public function mimetodo2();
+  }
+
+class OperacionesAritmeticas implements claseinter
+  {
+    public $nombreObjeto="";
+    public function mimetodo()
+    {}
+    public function mimetodo2()
+    {}
+  }
+
+$objeto1 = new OperacionesAritmeticas("1");
+*/
