@@ -1,0 +1,45 @@
+create table persona 
+(
+    email varchar(255) not null,
+    pass text not null,
+    nombre varchar(255) not null,
+    a_paterno varchar(255) not null,
+    a_materno varchar(255) not null,
+    nacio date not null,
+    constraint email_pk
+    primary key(email)
+ ) engine = InnoDB;
+
+
+create table publicacion 
+(
+	id int auto_increment, 
+	email_autor varchar(255) not null,
+	index(email_autor),
+	fechahora datetime,
+	titulo text not null,
+	textopublicacion text not null,
+
+	constraint id_publicacion_pk
+	primary key(id),
+
+	constraint email_autor_fk
+	foreign key(email_autor)references
+	persona(email) ON DELETE CASCADE ON UPDATE CASCADE 
+) engine = InnoDB;
+
+create table comentarios
+(
+	id int auto_increment,
+	id_publicacion int not null,
+	index(id_publicacion),
+	fechahora datetime,
+	textocomentario text not null,
+
+	constraint id_comentario_pk
+	primary key(id),
+
+	constraint id_publicacion_fk
+	foreign key(id_publicacion)references
+	publicacion(id) ON DELETE CASCADE ON UPDATE CASCADE 
+)engine = InnoDB;
